@@ -30,10 +30,10 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link })
           </div>
         </div>  
         <div className=" mt-5">
-          <h2 className=" text-white font-bold text-[24px]">{name}</h2>
-          <p className=" text-secondary text-[14px]">{description}</p>
+          <h2 className=" text-white font-bold text-[24px] p-2">{name}</h2>
+          <p className=" text-secondary text-[14px] p-2">{description}</p>
         </div>
-        <div className=" mt-4 flex flex-wrap gap-2">
+        <div className=" mt-4 flex flex-wrap gap-2 p-2">
           {tags.map((tag) => (
             <p className={`text-[14px] ${tag.color}`} key={tag.name}>
               #{tag.name}

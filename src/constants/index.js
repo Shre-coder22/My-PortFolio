@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -13,18 +12,15 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    c ,
+    mern,
     threejs,
+    tableau,
+    Cars,
+    Tshirt,
+    News,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -50,12 +46,12 @@ import {
       icon: backend,
     },
     {
-      title: "Python",
-      icon: web,
+      title: "C++",
+      icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Three.js",
+      icon: creator,
     },
   ];
   
@@ -63,199 +59,157 @@ import {
     {
       name: "HTML 5",
       icon: html,
+      link: 'https://html.com/html5/',
     },
     {
       name: "CSS 3",
       icon: css,
+      link: 'https://www.w3.org/Style/CSS/Overview.en.html',
     },
     {
       name: "JavaScript",
       icon: javascript,
+      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction',
     },
     {
       name: "React JS",
       icon: reactjs,
+      link: 'https://react.dev/',
     },
     {
       name: "Redux Toolkit",
       icon: redux,
+      link: 'https://redux-toolkit.js.org/',
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+      link: 'https://tailwindcss.com/',
     },
     {
       name: "Node JS",
       icon: nodejs,
+      link: 'https://nodejs.org/en',
     },
     {
       name: "MongoDB",
       icon: mongodb,
+      link: 'https://www.mongodb.com/',
     },
     {
       name: "Three JS",
       icon: threejs,
+      link: 'https://threejs.org/',
+    },
+    {
+      name: "C++",
+      icon: c,
+      link: 'https://cplusplus.com/doc/tutorial/',
+    },
+    {
+      name: "Tableau",
+      icon: tableau,
+      link: 'https://www.tableau.com/',
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+      link: 'https://github.com'
+    }
   ];
   
   const experiences = [
     {
+      title: "C++, HTML/CSS/JS",
+      icon: c,
+      iconBg: "#383E56",
+      date: "Since Jan 2021",
+    },
+    {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      icon: reactjs,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      date: "Since Jun 2022 ",
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      icon: mern ,
+      iconBg: "#383E56",
+      date: "Since Feb 2023 ",
+    },
+    {
+      title: "THREE/NEXT.js",
+      icon: threejs,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      date: "Since Oct 2023",
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Car Rental",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Three",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Cars,
+      source_code_link: "https://github.com/Shre-coder22",
     },
     {
-      name: "Job IT",
+      name: "News-Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Stay informed with Global-News, your go-to news website featuring diverse categories and personalized content. Save articles, customize your feed, and never miss a story that matters to you.",
       tags: [
         {
-          name: "react",
+          name: "React/MERN Stack",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "News-Api",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "BootStrap",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: News,
+      source_code_link: "https://github.com/Shre-coder22",
     },
     {
-      name: "Trip Guide",
+      name: "3-D Shirt Design Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Design your perfect shirt with Shoppers, where you can fully customize logos, colors, and designs in a 3D interactive experience. Create unique apparel that reflects your style effortlessly.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Three",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Tshirt,
+      source_code_link: "https://github.com/Shre-coder22",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

@@ -5,7 +5,6 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement 
@@ -37,7 +36,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        <h2 className={styles.sectionHeadText}>Learning Experience</h2>
       </motion.div>
 
       <div className=" mt-20 flex flex-col">
