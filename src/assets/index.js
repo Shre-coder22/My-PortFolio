@@ -1,3 +1,4 @@
+
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -21,10 +22,6 @@ import mern from "./tech/mern.png";
 import threejs from "./tech/threejs.svg";
 import tableau from "./tech/tableau.png"
 
-import Cars from './Cars.png';
-import Tshirt from './T-shirt.png';
-import News from './News.png';
-
 export {
   logo,
   backend,
@@ -47,7 +44,4 @@ export {
   tailwind,
   threejs,
   tableau,
-  Cars,
-  Tshirt,
-  News,
 };

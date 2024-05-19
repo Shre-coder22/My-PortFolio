@@ -16,10 +16,14 @@ import {
     mern,
     threejs,
     tableau,
-    Cars,
-    Tshirt,
-    News,
+    
   } from "../assets";
+
+  // import {
+  //   Cars,
+  //   Tshirt,
+  //   News,
+  // } from '../../public'
 
   export const navLinks = [
     {
@@ -165,7 +169,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: Cars,
+      image: './Cars.png',
       source_code_link: "https://github.com/Shre-coder22",
     },
     {
@@ -186,7 +190,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: News,
+      image: './News.png',
       source_code_link: "https://github.com/Shre-coder22",
     },
     {
@@ -207,7 +211,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: Tshirt,
+      image: './T-shirt.png',
       source_code_link: "https://github.com/Shre-coder22",
     },
   ];
