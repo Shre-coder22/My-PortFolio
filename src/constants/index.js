@@ -147,6 +147,12 @@ import {
       iconBg: "#E6DEDD",
       date: "Since Oct 2023",
     },
+    {
+      title: "Aasan Mart- Website developer",
+      icon: reactjs,
+      iconBg: "#383E56",
+      date: "13/9/24 - 13/11/24",
+    }
   ];
   
   
